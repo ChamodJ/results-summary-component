@@ -15,7 +15,7 @@ body {
     border: none;
     border-bottom-left-radius: 55px;
     border-bottom-right-radius: 55px;
-    padding: 20px;
+    padding: 20px 35px;
     margin-bottom: 50px;
     
 }
@@ -54,15 +54,22 @@ body {
 .summery-div {
     margin: 45px;
     font-size: 30px;
+    text-align: start;
 }
 
 .summery-sub-div {
     background-color: aqua;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 25px 0px;
     border: none;
     border-radius: 17px;
+}
+
+.summery-item {
+    display: flex;
+    justify-content: space-evenly;
+    width: 250px;
 }
 
 .reaction {
@@ -88,5 +95,14 @@ body {
 .continue-btn {
     width: 850px;
     margin-bottom: 20px;
-    padding: 25px;
+    margin-top: 20px;
+    padding: 40px 15px;
+
+    color: #e2dffd;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 35px;
+    background-color: hsl(224, 30%, 27%);
+
+    border: none;
+    border-radius: 50px;
 }
