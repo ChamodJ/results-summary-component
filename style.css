@@ -7,7 +7,7 @@ body {
 .main-score-div {
     margin-top: 0;
     text-align: center;
-    height: 500px;
+    height: 600px;
     background: linear-gradient( hsl(252, 100%, 67%) , hsl(241, 81%, 54%)) ;
     color: #e2dffd;
     font-size: 18px;
